@@ -891,8 +891,8 @@ if($message['type']=='text') {
   'altText' => 'fistweet',
   'baseSize' => 
   array (
-    'height' => 700,
-    'width' => 700,
+    'height' => 300,
+    'width' => 300,
   ),
   'actions' => 
   array (
