@@ -878,16 +878,37 @@ if($message['type']=='text') {
         );
     }
 }
-//pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'haha' || $command == 'hahaha' ) {
+	    if ($command == 'Haha' || $command == 'Hahaha' ) {
+
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'image',
-  'originalContentUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
-  'previewImageUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
+  'type' => 'imagemap',
+  'originalContentUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/23770.png',
+  'previewImageUrl'    => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/23770.png'),
+  'altText' => 'fistweet',
+  'baseSize' => 
+  array (
+    'height' => 700,
+    'width' => 700,
+  ),
+  'actions' => 
+  array (
+    0 => 
+    array (
+      'type' => 'message',
+      'text' => 'Haha',
+      'area' => 
+      array (
+        'x' => 520,
+        'y' => 0,
+        'width' => 520,
+        'height' => 1040,
+      ),
+    ),
+  ),
 )
             )
         );
