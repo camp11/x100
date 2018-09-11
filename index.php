@@ -880,35 +880,14 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Haha' || $command == 'Hahaha' ) {
-
+	    if ($command == 'haha' || $command == 'hahaha' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
-  'type' => 'imagemap',
-  'baseUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550',
-  'altText' => 'fistweet',
-  'baseSize' => 
-  array (
-    'height' => 300,
-    'width' => 300,
-  ),
-  'actions' => 
-  array (
-    0 => 
-    array (
-      'type' => 'message',
-      'text' => 'Haha',
-      'area' => 
-      array (
-        'x' => 520,
-        'y' => 0,
-        'width' => 520,
-        'height' => 1040,
-      ),
-    ),
-  ),
+  'type' => 'image',
+  'originalContentUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
+  'previewImageUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
 )
             )
         );
