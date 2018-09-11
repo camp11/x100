@@ -878,6 +878,7 @@ if($message['type']=='text') {
         );
     }
 }
+//pesan bergambar
 if($message['type']=='text') {
 	    if ($command == 'Haha' || $command == 'Hahaha' ) {
 
@@ -886,13 +887,13 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'originalContentUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/23770.png',
-  'previewImageUrl'    => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/23770.png'),
+  'originalContentUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
+  'previewImageUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png'),
   'altText' => 'fistweet',
   'baseSize' => 
   array (
-    'height' => 700,
-    'width' => 700,
+    'height' => 1040,
+    'width' => 1040,
   ),
   'actions' => 
   array (
