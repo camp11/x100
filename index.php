@@ -887,7 +887,7 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
+  'baseUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550',
   'altText' => 'fistweet',
   'baseSize' => 
   array (
