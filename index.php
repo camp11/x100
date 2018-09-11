@@ -887,12 +887,12 @@ if($message['type']=='text') {
             'messages' => array(
                 array (
   'type' => 'imagemap',
-  'baseUrl' => 'https://res.cloudinary.com/tes5566/image/upload/v1532322034/Stiker/3',
+  'baseUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
   'altText' => 'fistweet',
   'baseSize' => 
   array (
-    'height' => 1040,
-    'width' => 1040,
+    'height' => 700,
+    'width' => 700,
   ),
   'actions' => 
   array (
