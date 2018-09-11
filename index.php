@@ -813,13 +813,13 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'Creator' || $command == 'creator' ) {
+	    if ($command == 'dd' || $command == 'creator' ) {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
                 array (
   'type' => 'template',
-  'altText' => 'CREATOR',
+  'altText' => '',
   'template' => 
   array (
     'type' => 'image_carousel',
@@ -827,11 +827,11 @@ if($message['type']=='text') {
     array (
       0 => 
       array (
-        'imageUrl' => 'https://res.cloudinary.com/eds0101/image/upload/v1527926484/Creator/1040.jpg',
+        'imageUrl' => 'https://sdl-stickershop.line.naver.jp/products/0/0/4/1331/android/stickers/8550.png',
         'action' => 
         array (
           'type' => 'uri',
-          'label' => 'CHAT PM',
+          'label' => '',
           'uri' => 'http://line.me/ti/p/8jX6OIm-AS',
         ),
       ),
